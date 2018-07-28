@@ -1,11 +1,11 @@
-import React from "react";
+import * as React from "react";
 
 import { storiesOf } from "@storybook/react";
 import { Button } from "./Button";
-import { wInfo } from "../../utils";
+import { wInfo } from "../utils";
 import { text, boolean } from "@storybook/addon-knobs/react";
 
-storiesOf("Components/Button", module).addWithJSX(
+(storiesOf("Components/Button", module) as any).addWithJSX(
   "basic Button",
   wInfo(`
 
