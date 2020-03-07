@@ -7,7 +7,7 @@ This is the end result from https://dev.to/swyx/quick-guide-to-setup-your-react-
 # Usage
 
 ```bash
-yarn
+npm install
 npm run storybook
 ```
 
