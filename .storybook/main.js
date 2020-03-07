@@ -5,7 +5,6 @@ module.exports = {
     '@storybook/addon-actions',
     '@storybook/addon-links',
     '@storybook/addon-knobs',
-    'storybook-addon-jsx'
   ],
   stories: ['../src/stories/*.stories.tsx'],
   webpackFinal: async config => {
