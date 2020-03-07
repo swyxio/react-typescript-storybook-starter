@@ -16,21 +16,3 @@ export const Emoji = () => (
     </span>
   </Button>
 );
-
-// (storiesOf("Components/Button", module) as any).addWithJSX(
-//   "basic Button",
-//   wInfo(`
-
-//   ### Notes
-
-//   This is a button
-
-//   ### Usage
-//   ~~~js
-//   <Button
-//     label={'Enroll'}
-//     disabled={false}
-//     onClick={() => alert('hello there')}
-//   />
-//   ~~~`)()
-// );
